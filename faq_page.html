@@ -10,6 +10,8 @@
     <script src="./js/popper.min.js"></script>
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="./bootstrap/css/album.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -18,28 +20,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
 </head>
-<style>
-    .jumbotron-background {
-        /*background: linear-gradient(to bottom, #00ffff 15%, #cc99ff 95%);*/
-        background-image: url("./assets/587037221-pink-purple-and-blue-wallpapers.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    .jumbotron-text {
-        text-align: center;
-        color: white;
-        font-size: larger;
-    }
-</style>
 <body>
 <!--Jumbotron-->
-<div class="jumbotron jumbotron-background jumbotron-fluid">
+<div>
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h2 class="jumbotron-heading"><strong>Frequently Asked Questions (FAQ)</strong></h2>
+      <p class="lead text-muted"><b>If you have a specific question relating to your order or any question not answered here, please send us an email to customer_support@octank.com</b></p>
+      </b></div>
+  </section>
+  <p></p>
+</div>
+<!-- <div class="jumbotron jumbotron-background jumbotron-fluid">
     <div class="container jumbotron-text">
         <h1 class="display-4 ">Frequently Asked Questions (FAQ)</h1>
         <p class="lead">If you have a specific question relating to your order or any question not answered here, please send us an email to customer_support@octank.com</p>
     </div>
-</div>
+</div> -->
 <div class="container">
     <!-- FAQ and Answers -->
     <div class="accordion" id="accordionExample">
@@ -480,8 +477,13 @@
 </div>
 </body>
 <!-- Footer -->
-<footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">© 2021 Copyright. Octank.com</div>
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>Octank clothing &copy; 2021 Copyright</p>
+  </div>
 </footer>
 </div>
 </html>
